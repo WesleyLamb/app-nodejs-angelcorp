@@ -1,0 +1,21 @@
+{
+  "name": "app-nodejs-angelcorp",
+  "version": "1.0.0",
+  "description": "App para CI/CD",
+  "homepage": "https://github.com/WesleyLamb/app-nodejs-angelcorp#readme",
+  "bugs": {
+    "url": "https://github.com/WesleyLamb/app-nodejs-angelcorp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyLamb/app-nodejs-angelcorp.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building...' && mkdir -p dist && echo 'Build complete' > dist/build.log",
+    "test": "echo 'Running tests...' && exit 0"
+  }
+}
